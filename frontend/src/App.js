@@ -1,24 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+//jsx e o java script e mesma coisa xml
+import Logon from './pages/Logon';
 
 function App() {
+
+  // let [counter, setCounter] = useState(0);
+  // // varlor arry valor  , atualização 
+  // function Cont() {
+  //   setCounter(counter + 1);
+  //   console.log(counter);
+  //   console.log(useState);
+  // }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={ logo } className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <Header>Contador :{ counter } </Header>
+      <button onClick={ Cont }>Add</button> */}
+      <Logon />
     </div>
   );
 }
